@@ -8,22 +8,12 @@
     max-width: 300px;
   }
 }
-@media screen and (max-width: 1010px){
-  .photo-grid__item{
-    max-width: 352px;
-  }
-}
 @media screen and (max-width: 768px){
   .photo-grid__item{
     max-width: 352px;
   }
 }
-@media screen and (max-width: 414px){
-  .photo-grid__item{
-    max-width: 288px;
-  }
-}
-@media screen and (max-width: 320px){
+@media screen and (max-width: 722px){
   .photo-grid__item{
     max-width: 288px;
   }

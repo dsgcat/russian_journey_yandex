@@ -14,30 +14,13 @@
   .place__header-title{
     font-size: 42px;
     line-height: 46px;
+    max-width: 340px;
   }
 }
-@media screen and (max-width: 768px){
-  .place__header-title{
-    font-size: 42px;
-    line-height: 46px;
-  }
-}
-@media screen and (max-width: 768px){
-  .place__header-title_kk{
-    max-width: 330px;
-  }
-}
-@media screen and (max-width: 414px){
+@media screen and (max-width: 722px){
   .place__header-title{
     font-size: 32px;
     line-height: 35px;
-    width: 288px;
-  }
-}
-@media screen and (max-width: 320px){
-  .place__header-title{
-    font-size: 32px;
-    line-height: 35px;
-    width: 288px;
+    max-width: 288px;
   }
 }

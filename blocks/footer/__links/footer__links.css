@@ -4,13 +4,7 @@
 .footer__links:nth-child(5){
   padding-right: 0;
 }
-@media screen and (max-width:414px){
-  .footer__links{
-    padding-right: 0;
-    padding-bottom: 32px;
-  }
-}
-@media screen and (max-width:320px){
+@media screen and (max-width: 722px){
   .footer__links{
     padding-right: 0;
     padding-bottom: 32px;

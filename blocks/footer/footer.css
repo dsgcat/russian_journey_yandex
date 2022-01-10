@@ -1,5 +1,5 @@
 .footer{
-  width: 1184px;
+  max-width: 1184px;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
@@ -7,37 +7,19 @@
   padding-top: 92px;
   padding-bottom: 24px;
 }
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1186px){
   .footer{
-    width: 928px;
-    display: flex;
-    padding-top:92px;
-    padding-bottom: 24px;
+    max-width: 928px;
   }
 }
 @media screen and (max-width: 1010px){
   .footer{
-    width: 720px;
-    padding-top:88px;
+    max-width: 720px;
+    padding-top: 88px;
     padding-bottom: 24px;
   }
 }
-@media screen and (max-width: 768px){
-  .footer{
-    width: 720px;
-    padding-top:88px;
-    padding-bottom: 24px;
-  }
-}
-@media screen and (max-width: 414px){
-  .footer{
-    margin: 0;
-    width: 186px;
-    flex-wrap: wrap;
-    padding: 64px 0 24px 16px;
-  }
-}
-@media screen and (max-width: 320px){
+@media screen and (max-width: 722px){
   .footer{
     margin: 0;
     width: 186px;

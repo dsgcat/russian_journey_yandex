@@ -7,21 +7,14 @@
   line-height: 22px;
   text-align: center;
   color: #FFFFFF;
-  width: 360px;
+  max-width: 360px;
   padding-top: 32px;
   z-index: 1;
 }
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 722px) {
   .cover__subtitle{
     font-size: 14px;
     line-height: 16px;
-    width: 288px;
-  }
-}
-@media screen and (max-width: 320px) {
-  .cover__subtitle{
-    font-size: 14px;
-    line-height: 16px;
-    width: 288px;
+    max-width: 288px;
   }
 }

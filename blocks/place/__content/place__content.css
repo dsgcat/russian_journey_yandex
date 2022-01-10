@@ -6,7 +6,7 @@
   grid-template-columns: 460px 484px;
   grid-column-gap: 40px;
 }
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1186px){
   .place__content{
     max-width: 928px;
     grid-template-columns: 440px 456px;
@@ -20,28 +20,11 @@
     grid-column-gap: 28px;
   }
 }
-@media screen and (max-width: 768px){
-  .place__content{
-    max-width: 720px;
-    grid-template-columns: 340px 352px;
-    grid-column-gap: 28px;
-  }
-}
-@media screen and (max-width: 414px){
+@media screen and (max-width: 722px){
   .place__content{
     max-width: 320px;
     display: flex;
     flex-direction: column;
     position: relative;
-    overflow: hidden;
-  }
-}
-@media screen and (max-width: 320px){
-  .place__content{
-    max-width: 320px;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    overflow: hidden;
   }
 }

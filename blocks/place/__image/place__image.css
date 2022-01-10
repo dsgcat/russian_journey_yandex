@@ -3,17 +3,9 @@
   padding: 0;
   max-width: 100%;
 }
-@media screen and (max-width: 414px){
+@media screen and (max-width: 722px){
   .place__image{
-  margin: 0 auto 32px auto;
-  padding: 0;
-  width: 315px;
-}
-}
-@media screen and (max-width: 320px){
-    .place__image{
     margin: 0 auto 32px auto;
-    padding: 0;
     width: 315px;
   }
 }
