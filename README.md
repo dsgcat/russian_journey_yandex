@@ -11,7 +11,7 @@
 
 #### ссылка на проект в GitHub Pages
 
-Russian Travel: https://dsgcat.github.io/third-project-for-hh/
+Russian Travel: https://dsgcat.github.io/russian_journey_yandex/
 
 *Проект отображается без горизонтальных скроллов от 320px до бесконечности*
 
